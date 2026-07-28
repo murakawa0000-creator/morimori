@@ -36,12 +36,12 @@ jobs:
         run: |
           cd src && python main.py
 
-      - name: 生成物をアーティファクトとして保存
+　　　- name: 生成物をアーティファクトとして保存
         uses: actions/upload-artifact@v4
         with:
           name: short-video-${{ github.run_number }}
           path: |
-            output/short_video.mp4
-            output/script.json
-            output/trends.json
+            src/output/short_video.mp4
+            src/output/script.json
+            src/output/trends.json
           retention-days: 30
