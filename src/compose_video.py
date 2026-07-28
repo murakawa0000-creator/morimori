@@ -29,7 +29,7 @@ FONT_PATH = os.environ.get(
 )
 FONT_PATH_BOLD = os.environ.get(
     "JP_FONT_PATH_BOLD",
-    "/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
 )
 
 # 背景写真が1枚も無い場合のフォールバック単色
