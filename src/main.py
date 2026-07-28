@@ -6,7 +6,10 @@ GitHub Actions から `python src/main.py` として毎日呼び出される想�
 """
 
 import sys
+import os
 import traceback
+
+os.makedirs("output", exist_ok=True)
 
 from collect_trends import fetch_trends, save_trends
 from generate_script import pick_best_trend, generate_script, save_script
