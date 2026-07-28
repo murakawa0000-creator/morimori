@@ -212,6 +212,7 @@ def compose_video(
         codec="libx264",
         audio_codec="aac",
         preset="medium",
+        bitrate="8000k",
         threads=4,
     )
     print(f"[OK] 動画を {out_path} に保存しました（{duration:.1f}秒）")
