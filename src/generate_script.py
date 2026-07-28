@@ -13,7 +13,7 @@ import json
 import sys
 import google.generativeai as genai
 
-MODEL_NAME = "gemini-1.5-flash"  # 無料枠あり。必要に応じて gemini-1.5-pro 等に変更可
+MODEL_NAME = "gemini-3.5-flash-lite"  # 無料枠あり。最新の軽量モデル
 
 SYSTEM_INSTRUCTION = """あなたはショート動画（YouTube Shorts / TikTok想定、60秒程度）の台本作家です。
 与えられたニュースの見出しと概要をもとに、視聴者の興味を引く独自の台本を作成してください。
