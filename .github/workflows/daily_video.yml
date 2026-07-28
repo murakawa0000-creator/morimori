@@ -34,7 +34,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           JP_FONT_PATH: /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
-          JP_FONT_PATH_BOLD: /usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc
+          JP_FONT_PATH_BOLD: /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
         run: |
           cd src && python main.py
 
