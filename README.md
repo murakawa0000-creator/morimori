@@ -1,5 +1,0 @@
-feedparser==6.0.12
-google-generativeai==0.8.6
-gTTS==2.5.4
-moviepy==2.1.2
-Pillow==11.3.0
